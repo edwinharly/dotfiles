@@ -41,8 +41,8 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'valloric/youcompleteme'
 Plugin 'marijnh/tern_for_vim'
 Plugin 'alvan/vim-closetag'
-Bundle 'jistr/vim-nerdtree-tabs'
-"Bundle 'OmniSharp/omnisharp-vim'
+Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'cakebaker/scss-syntax.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

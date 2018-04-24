@@ -42,7 +42,9 @@ Plugin 'valloric/youcompleteme'
 Plugin 'marijnh/tern_for_vim'
 Plugin 'alvan/vim-closetag'
 Plugin 'jistr/vim-nerdtree-tabs'
+Plugin 'JulesWang/css.vim'
 Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'AutoComplPop'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -64,6 +66,8 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+set omnifunc=syntaxcomplete#Complete
+set completeopt=longest,menuone
 
 let g:solarized_termcolors=256
 set t_Co=256
@@ -71,7 +75,6 @@ set term=screen-256color
 set t_ut=
 syntax enable
 set background=dark
-colorscheme onedark
 
 " NERDtree
 " auto open NERDTree when opening a directory
@@ -107,3 +110,4 @@ let g:OmniSharp_server_use_mono=1
 let g:closetag_filenames='*.html,*.jsx'
 let g:closetag_xhtml_filenames='*.jsx'
 let g:closetag_emptyTags_caseSensitive=1
+
